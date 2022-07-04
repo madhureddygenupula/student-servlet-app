@@ -1,0 +1,25 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  <servlet-name>Register</servlet-name>
+  <servlet-class>com.ty.student.StudentRegister</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Register</servlet-name>
+  <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>Create</servlet-name>
+  <servlet-class>com.ty.student.CreateStudent</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Create</servlet-name>
+  <url-pattern>/create</url-pattern>
+  </servlet-mapping>
+</web-app>
